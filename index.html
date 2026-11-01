@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me | SentinelOne</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1b1f2a;
+      --muted: #5a6275;
+      --accent: #6c2bd9;
+      --border: #e1e4ec;
+      --panel: #f6f7fb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14161d;
+        --text: #eceef4;
+        --muted: #9aa2b6;
+        --accent: #a77bff;
+        --border: #2b2f3b;
+        --panel: #1c1f29;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 3rem 1.25rem;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.65;
+    }
+    main { max-width: 640px; margin: 0 auto; }
+    h1 { font-size: 2rem; margin: 0 0 0.25rem; }
+    .subtitle { color: var(--muted); margin: 0 0 2.5rem; }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    h2 { font-size: 1.15rem; margin: 0 0 0.5rem; }
+    p { margin: 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Hi, I'm Mohamed Sharief</h1>
+    <p class="subtitle">Solutions Engineer at SentinelOne</p>
+
+    <section id="about">
+      <h2>About me</h2>
+      <p>
+        I'm Mohamed Sharief, a Solutions Engineer on the SE team at SentinelOne.
+        I'm based in Riyadh, Saudi Arabia. I'm excited to be part of the team!
+      </p>
+    </section>
+
+    <section id="policy">
+      <h2>Policy confirmation</h2>
+      <p>
+        I confirm that I have read and understood that <em>all</em> of my code at
+        SentinelOne (S1) must reside in GHE.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
